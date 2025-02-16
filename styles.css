@@ -77,6 +77,11 @@
       color: var(--secondary-color);
 }
 
+#logo {
+  width: 100%;
+  height: 86px;
+}
+
 #btn-phone {
   transform: scaleX(-1);
   font-weight: 600;
@@ -113,13 +118,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--primary-color);
+  background: #4e4135fb;
   justify-content: center;
   align-items: center;
   direction: ltr !important;
   z-index: 100;
   height: 80px;
 }
+
+
 
 .nav__logo {
   max-width: 150px;
